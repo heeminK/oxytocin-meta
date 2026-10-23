@@ -1,0 +1,36 @@
+﻿name,data_type,description,level
+AUTHORS,character,Authors of the study,
+YEAR,integer,Publication year,
+PUBLISHED,logical,If the summary statistic or effect size of interest was reported in the original article,TRUE; FALSE
+TITLE,character,The title of the study,
+JOURNAL,character,The journal where the study was published,
+DOI,character,DOI of the study,
+MEAN_AGE_OXT,integer,Mean age of participants in the placebo condition (within-participant design) or group (between-participant design),
+MEAN_AGE_PLC,numeric,Mean age of participants in the oxytocin condition (within-participant design) or group (between-participant design),
+PER_FEMALE,numeric,Percentage of female participants in the sample,
+N_OXT,integer,The number of participants in the oxytocin condition (within-participant design) or group (between-participant design),
+N_PLC,integer,The number of participants in the placebo condition (within-participant design) or group (between-participant design),
+POPULATION_TYPE,character,Clinical status of participants,
+OT_ROUTE,character,Route of oxytocin administration,intranasal; oral
+OT_DOSE,character,The dose administered in IU,
+OT_FREQ,character,The frequency administered,single; repeated
+OT_REST,character,Dose-to-task interval in minutes,
+MISSING_DATA,logical,If the summary statistic or effect size of interest was missing in the original article,TRUE; FALSE
+HENTING_DATA,character,Alternative method to extract data if data was missing,
+MEAN_OXT,numeric,Mean response in the oxytocin condition (within-participant design) or group (between-participant design),
+SD_OXT,numeric,Standard deviation of response in the oxytocin condition (within-participant design) or group (between-participant design),
+MEAN_PLC,numeric,Mean response in the placebo condition (within-participant design) or group (between-participant design),
+SD_PLC,numeric,Standard deviation of response in the placebo condition (within-participant design) or group (between-participant design),
+EX_NONSOCIAL,logical,If non-social cognition or behavior was focal outcome in the study,TRUE; FALSE
+EXP_TASK,character,The task used in the study,
+EXP_OUTCOME_MEASURE,character,The outcome measure,
+EXP_DIR_BENEFICIAL,character,If the difference between oxytocin and placebo indicated a beneficial effect of oxytocin,POS (positive); NEG (negative)
+EXP_UNIT,character,The unit of outcome measure,
+EXP_EF_DOMAIN,character,The executive function subcategory investigated,inhibition; flexibility; working memory
+EXP_BLIND,character,Information regarding blinding,single; double
+EXP_DESIGN,character,The level of comparison,within; between
+EXP_RANDOM,logical,If participants were randomly assigned to different group (within-participant) or condition was counter-balanced (between-participant),TRUE; FALSE
+BLIND_CHECK,logical,If successful blinding was formally assessed,TRUE; FALSE
+PEER_REVIEWED,logical,If the article was peer-reviewed,TRUE; FALSE
+yi,numeric,Effect size in Hedges' g calculated with metafor r package,
+vi,numeric,Variance of effect size calculated with metafor r package,
