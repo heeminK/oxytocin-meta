@@ -186,7 +186,7 @@ generate_mod_fp <- function(data, sublevel, res) {
                                             ", df = ", .(mod_res$p - 1),
                                             ", p = ", .(formatC(mod_res$QMp, digits=2, format="f")))))
   par(new=TRUE)
-  addpoly(res, row = -1, level = 95, annotate = TRUE, border = FALSE)
+  addpoly(res, row = -1, level = 95, annotate = TRUE, border = NA)
   abline(h=0)
   
   return(fp)
